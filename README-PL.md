@@ -48,7 +48,6 @@ Budujemy zespół aby ukończyć ten projekt.
 |---------|------|-----------|
 | Programista | 5 | Krytyczny |
 | Hoster | 1 | Krytyczny |
-| Menadżer Repozytorium | 3 | Wysoki |
 | Tester | 20 | Wysoki |
 | Moderator Discord | 3 | Średni |
 | Promotor | 5 | Niski |
@@ -73,14 +72,6 @@ Budujemy zespół aby ukończyć ten projekt.
 - Musi umożliwić El i programistom pełny dostęp FTP lub plikowy do dodawania, usuwania lub modyfikowania plików
 - Nie może modyfikować żadnej konfiguracji gry bez zgody
 - Musi utrzymywać serwer wolny od innych modów, które mogą powodować konflikty
-
-### Wymagania dla Menadżera Repozytorium
-
-- Odpowiedzialny za utrzymanie struktury repozytorium GitHub
-- Musi przeglądać i scalać pull requesty
-- Musi utrzymywać dokumentację zorganizowaną i aktualną
-- Musi koordynować z programistami kontrolę wersji
-- Musi zapewnić, że żaden nieautoryzowany kod nie zostanie scalony
 
 ### Wymagania dla Testera
 
@@ -117,7 +108,6 @@ Po uruchomieniu publicznego serwera, wszyscy członkowie zespołu otrzymują sta
 
 - Programiści: udział w przychodach z darowizn i sprzedaży VIP
 - Hoster: udział w przychodach z darowizn i sprzedaży VIP (oprócz dostępu do serwera)
-- Menadżer Repozytorium: udział w przychodach z darowizn i sprzedaży VIP
 - Testerzy: udział w przychodach z darowizn
 - Moderatorzy Discord: udział w przychodach z darowizn
 - Promotorzy: udział w przychodach z darowizn na podstawie śledzenia poleceń
@@ -145,7 +135,6 @@ Procentowe udziały w dystrybucji przychodów zostaną udokumentowane i udostęp
 | El (Lider Projektu) | Właściciel |
 | Programista | BOSS |
 | Hoster | BOSS |
-| Menadżer Repozytorium | BOSS |
 | Tester | VIP plus Junior Admin |
 | Moderator Discord | Weteran |
 | Promotor | VIP |
