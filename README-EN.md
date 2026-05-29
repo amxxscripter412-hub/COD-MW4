@@ -185,4 +185,4 @@ Credit and respect to O'Zone for creating the original COD Mod that inspired thi
 
 Project Lead: El
 Discord Server: https://discord.gg/ZaGdCPGWzd
-GitHub Repository: https://github.com/Nuel/COD-MW4
+GitHub Repository: https://github.com/amxxscripter412-hub/COD-MW4
