@@ -1,0 +1,19 @@
+# Compiled files
+*.amxx
+*.o
+
+# Temporary files
+*.bak
+*.tmp
+*.swp
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local config (jangan push config lokal ke public)
+*.local.cfg
