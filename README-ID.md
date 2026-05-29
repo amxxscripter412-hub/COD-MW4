@@ -48,7 +48,6 @@ Kami sedang membangun tim untuk menyelesaikan proyek ini.
 |--------|--------|-----------|
 | Programmer | 5 | Kritis |
 | Hoster | 1 | Kritis |
-| Manajer Repository | 3 | Tinggi |
 | Tester | 20 | Tinggi |
 | Moderator Discord | 3 | Sedang |
 | Promotor | 5 | Rendah |
@@ -73,14 +72,6 @@ Tidak ada programmer yang boleh membagikan kode apapun kepada siapapun di luar t
 - Harus memberikan El dan programmer akses FTP atau file penuh untuk menambah, menghapus, atau memodifikasi file
 - Tidak boleh memodifikasi konfigurasi game apapun tanpa persetujuan
 - Harus menjaga server bebas dari mod lain yang dapat menyebabkan konflik
-
-### Persyaratan Manajer Repository
-
-- Bertanggung jawab untuk memelihara struktur repository GitHub
-- Harus meninjau dan menggabungkan pull request
-- Harus menjaga dokumentasi tetap terorganisir dan terbaru
-- Harus berkoordinasi dengan programmer untuk kontrol versi
-- Harus memastikan tidak ada kode tidak sah yang digabungkan
 
 ### Persyaratan Tester
 
@@ -145,7 +136,6 @@ Persentase distribusi pendapatan akan didokumentasikan dan dibagikan kepada semu
 | El (Pemimpin Proyek) | Owner |
 | Programmer | BOSS |
 | Hoster | BOSS |
-| Manajer Repository | BOSS |
 | Tester | VIP plus Junior Admin |
 | Moderator Discord | Veteran |
 | Promotor | VIP |
