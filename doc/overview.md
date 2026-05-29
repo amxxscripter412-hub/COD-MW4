@@ -27,7 +27,6 @@
 
 ## DOCUMENT 01: PROJECT OVERVIEW
 
-```markdown
 # COD:MW4 - Project Overview
 
 ## What is COD:MW4?
@@ -53,13 +52,13 @@ COD:MW4 is a ground-up remake of the classic RPG modification for Counter-Strike
 - Gap protection for balanced PvP
 - Cosmetic system with permanent unlocks
 - Full SQLite database persistence
-```
 
----
+
+
 
 ## DOCUMENT 02: GAMEPLAY FEATURES
 
-```markdown
+
 # COD:MW4 - Gameplay Features
 
 ## Core Mechanics
@@ -93,13 +92,11 @@ COD:MW4 is a ground-up remake of the classic RPG modification for Counter-Strike
 | Scrolling HUD | Rotating information display |
 | 40+ Sound Effects | Immersive audio feedback |
 | CS Shop | Disabled (replaced by COD shop) |
-```
 
----
 
 ## DOCUMENT 03: CLASS SYSTEM
 
-```markdown
+
 # COD:MW4 - Class System
 
 ## Available Classes
@@ -160,13 +157,11 @@ COD:MW4 is a ground-up remake of the classic RPG modification for Counter-Strike
 | VIP | Requires VIP status on server |
 | Credit | Purchase with in-game Credit currency |
 | Custom | Special access for custom class holders |
-```
 
----
 
 ## DOCUMENT 04: PERK SYSTEM
 
-```markdown
+
 # COD:MW4 - Perk System
 
 ## Available Perks
@@ -213,13 +208,11 @@ COD:MW4 is a ground-up remake of the classic RPG modification for Counter-Strike
 - Perks are purchased using in-game currency
 - Perks remain active until changed
 - Some perks have round-based cooldowns
-```
 
----
 
 ## DOCUMENT 05: ECONOMY SYSTEM
 
-```markdown
+
 # COD:MW4 - Economy System
 
 ## Currency Types
@@ -260,13 +253,13 @@ COD:MW4 is a ground-up remake of the classic RPG modification for Counter-Strike
 |---------|-------------|
 | Spawn Chance | 5% on player death |
 | Rewards | Fragments, gold, rockets, mines, medkits, dynamite, health, stat adjustments |
-```
 
----
+
+
 
 ## DOCUMENT 06: PROGRESSION SYSTEM
 
-```markdown
+
 # COD:MW4 - Progression System
 
 ## Level System
@@ -306,13 +299,11 @@ COD:MW4 is a ground-up remake of the classic RPG modification for Counter-Strike
 - 250 additional mastery levels available
 - Each mastery level provides continued progression
 - Visual level caps at 250 while mastery increases in background
-```
 
----
 
 ## DOCUMENT 07: STREAK SYSTEM
 
-```markdown
+
 # COD:MW4 - Streak System
 
 ## Five Streak Types
@@ -361,13 +352,11 @@ COD:MW4 is a ground-up remake of the classic RPG modification for Counter-Strike
 ## Streak Rewards
 
 All streaks provide progressive rewards that increase with streak length. Each streak type has its own reward table with XP, Gold, and special bonuses at milestone intervals.
-```
 
----
 
 ## DOCUMENT 08: GAP PROTECTION (UNDERDOG SYSTEM)
 
-```markdown
+
 # COD:MW4 - Gap Protection System
 
 ## Overview
@@ -400,13 +389,11 @@ When aiming at a significantly higher level enemy, a yellow "DANGER!" indicator 
 ## EXP Bonus
 
 Killing a significantly higher level player grants 2x normal EXP (stacks with other bonuses).
-```
 
----
 
 ## DOCUMENT 09: COSMETIC SYSTEM
 
-```markdown
+
 # COD:MW4 - Cosmetic System
 
 ## Custom Kill Effects (9 Types)
@@ -442,13 +429,11 @@ Killing a significantly higher level player grants 2x normal EXP (stacks with ot
 - No FPS drop on low-end PCs
 - No view blocking
 - No server lag on 32 players
-```
 
----
 
 ## DOCUMENT 10: TECHNICAL SPECIFICATIONS
 
-```markdown
+
 # COD:MW4 - Technical Specifications
 
 ## Platform Requirements
@@ -498,9 +483,7 @@ Killing a significantly higher level player grants 2x normal EXP (stacks with ot
 | PreThink / PostThink | Use set_task instead |
 | enum struct / methodmap | Not supported |
 | // TODO / // FIXME / /* stub */ | Must have complete implementation |
-```
 
----
 
 ## END OF PUBLIC DOCUMENTATION
 
