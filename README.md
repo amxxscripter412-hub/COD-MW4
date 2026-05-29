@@ -1,188 +1,211 @@
-# COD:MW4 - Modern Warfare 4 RPG Mod dla Counter-Strike 1.6
+# COD:MW4 - Modern Warfare 4 RPG Mod for Counter-Strike 1.6
 
-COD:MW4 jest remake'iem od podstaw klasycznego RPG Moda COD dla Counter-Strike 1.6, zbudowanym od zera dla AMX Mod X 1.9.
+COD:MW4 is a ground-up remake of the classic COD Mod RPG for Counter-Strike 1.6, built from scratch for AMX Mod X 1.9.
 
-## Status Projektu
+## Project Status
 
-Faza 1: Planowanie i Dokumentacja - UKOŃCZONA
-Faza 2: Rozwój Podstawowy - W TRAKCIE
-Faza 3: Testowanie - NIE ROZPOCZĘTE
-Faza 4: Uruchomienie - NIE ROZPOCZĘTE
+| Phase | Status |
+|-------|--------|
+| Phase 1: Planning & Documentation | COMPLETE |
+| Phase 2: Core Development | IN PROGRESS |
+| Phase 3: Testing | NOT STARTED |
+| Phase 4: Public Launch | NOT STARTED |
 
-## Funkcje Rozgrywki
+## Gameplay Features
 
-- System poziomów: 1 do 250 plus Mastery 1 do 250
-- Pięć atrybutów: Inteligencja, Siła, Wytrzymałość, Kondycja, Fortuna
-- Cztery klasy: Sapper (Darmowa), Assassin (VIP), Ghost (Kredyt), Chronos (Niestandardowa)
-- Cztery perki: Silent Boots, Quick Reload, Immortality, Set Stunter
-- Sklep z dziewięcioma przedmiotami w tym Kulawangsa Shield
-- System serii: Codzienna, Tygodniowa, Zabójstw, Rund, Questów
-- Ochrona przed luką z pięcioma stosami dla uczciwego PvP
-- System kosmetyczny: dziewięć efektów zabójstw i pięć niestandardowych noży (stałe)
-- 100 kevlaru i hełmu przy każdym odrodzeniu
-- Nieograniczona amunicja BP
-- Naciśnij M dla głównego menu
-- Przewijany HUD
-- 40 efektów dźwiękowych
+- Level system: 1 to 250 plus Mastery 1 to 250
+- Five attributes: Intelligence, Strength, Stamina, Condition, Fortune
+- Four classes: Sapper (Free), Assassin (VIP), Ghost (Credit), Chronos (Custom)
+- Four perks: Silent Boots, Quick Reload, Immortality, Set Stunter
+- Shop with 9 items including Kulawangsa Shield
+- Streak system: Daily, Weekly, Kill, Round, Quest
+- Gap protection with 5 stacks for fair PvP
+- Cosmetic system: 9 kill effects and 5 custom knives (permanent)
+- 100 kevlar and helmet every spawn
+- Unlimited BP ammo
+- Press M for main menu
+- Scrolling HUD
+- 40 sound effects
 
-## Specyfikacja Techniczna
+## Technical Specifications
 
-Platforma: AMX Mod X 1.9.0
-Baza danych: SQLite (tylko synchroniczne blokowanie)
-Docelowy sprzęt: Pentium 4, 1GB RAM, Intel GMA 950
-Styl kodowania: wcięcia 4 spacje, nawiasy klamrowe w nowej linii dla funkcji
+| Aspect | Specification |
+|--------|---------------|
+| Platform | AMX Mod X 1.9.0 |
+| Database | SQLite (sync blocking only) |
+| Target Hardware | Pentium 4, 1GB RAM, Intel GMA 950 |
+| Coding Style | 4-space indentation, braces on new line for functions |
 
-## Rekrutacja Zespołu
+## Team Recruitment
 
-Budujemy zespół aby ukończyć ten projekt.
+We are building a team to complete this project.
 
-### Otwarte Pozycje
+### Open Positions
 
-| Pozycja | Ilość | Priorytet |
-|---------|-------|-----------|
-| Programista | 5 | Krytyczny |
-| Hoster | 1 | Krytyczny |
-| Menadżer Hostera | 1 | Wysoki |
-| Tester | 20 | Wysoki |
-| Moderator Discord | 3 | Średni |
-| Promotor | 5 | Niski |
+| Position | Quantity | Priority |
+|----------|----------|----------|
+| Programmer | 5 | Critical |
+| Hoster | 1 | Critical |
+| Repository Manager | 3 | High |
+| Tester | 20 | High |
+| Discord Moderator | 3 | Medium |
+| Promoter | 5 | Low |
 
-### Wymagania dla Programisty
+### Programmer Requirements
 
-- Musi biegle władać językiem PAWN dla AMX Mod X
-- Musi rozumieć moduły fakemeta, hamsandwich, SQLite
-- Musi mówić po angielsku dla komunikacji w zespole
-- Musi mieć udowodnione doświadczenie (prześlij przykładowy kod lub poprzednią pracę)
-- Musi podpisać umowę o poufności
+- Must be fluent in PAWN language for AMX Mod X
+- Must understand fakemeta, hamsandwich, and SQLite modules
+- Must speak English for team communication
+- Must have proven experience (submit sample code or previous work)
+- Must sign a confidentiality agreement
 
-KRYTYCZNA ZASADA DLA PROGRAMISTÓW:
+**CRITICAL RULE FOR PROGRAMMERS:**
 
-Żaden programista nie może udostępniać żadnego kodu nikomu poza zespołem programistów. Tylko El (lider projektu) i wszyscy programiści mają dostęp do przeglądania i edytowania kodu. Udostępnienie kodu jakiejkolwiek stronie zewnętrznej skutkuje natychmiastowym usunięciem z zespołu i podjęciem działań prawnych w razie potrzeby.
+No programmer may share any code with anyone outside the programmer team. Only El (project lead) and all programmers have access to view and edit code. Sharing code with any external party results in immediate removal from the team and legal action if necessary.
 
-### Wymagania dla Hostera
+### Hoster Requirements
 
-- Musi zapewnić dedykowany serwer Counter-Strike 1.6
-- Serwer musi działać 24/7 z minimalną dostępnością 95 procent
-- Specyfikacja serwera: minimalnie 2GB RAM, stabilne połączenie internetowe
-- Musi umożliwić El i programistom pełny dostęp FTP lub plikowy do dodawania, usuwania lub modyfikowania plików
-- Nie może modyfikować żadnej konfiguracji gry bez zgody
-- Musi utrzymywać serwer wolny od innych modów, które mogą powodować konflikty
+- Must provide a dedicated Counter-Strike 1.6 server
+- Server must run 24/7 with minimum 95% uptime
+- Server specifications: minimum 2GB RAM, stable internet connection
+- Must grant El and programmers full FTP or file access to add, remove, or modify files
+- Must not modify any game configuration without approval
+- Must keep server free from other mods that may cause conflicts
 
-### Wymagania dla Menadżera Hostera
+### Repository Manager Requirements
 
-- Odpowiedzialny za przesyłanie dodatków, pluginów i zasobów na serwer
-- Musi koordynować z hosterem dostęp
-- Musi przestrzegać instrukcji wdrażania od programistów
-- Musi dokumentować wszystkie zmiany wprowadzone w plikach serwera
-- Musi być dostępny do awaryjnych wdrożeń
+- Responsible for maintaining GitHub repository structure
+- Must review and merge pull requests
+- Must keep documentation organized and up to date
+- Must coordinate with programmers for version control
+- Must ensure no unauthorized code is merged
 
-### Wymagania dla Testera
+### Tester Requirements
 
-- Musi posiadać lub mieć niezawodny dostęp do Counter-Strike 1.6
-- Musi być w stanie grać co najmniej 5 godzin tygodniowo na serwerze testowym
-- Musi przestrzegać formatu raportowania błędów (szablon dostępny na Discordzie)
-- Nie może wykorzystywać błędów dla osobistej korzyści
-- Musi raportować błędy uczciwie bez ukrywania informacji
+- Must own or have reliable access to Counter-Strike 1.6
+- Must be able to play at least 5 hours per week on the test server
+- Must follow bug reporting format (template available on Discord)
+- Must not exploit bugs for personal gain
+- Must report bugs honestly without withholding information
 
-### Wymagania dla Moderatora Discord
+### Discord Moderator Requirements
 
-- Musi biegle mówić po angielsku
-- Musi być aktywny na Discordzie co najmniej 10 godzin tygodniowo
-- Musi rozumieć i egzekwować zasady serwera
-- Nie może nadużywać uprawnień moderacyjnych
-- Musi profesjonalnie rozwiązywać konflikty
+- Must be fluent in English
+- Must be active on Discord at least 10 hours per week
+- Must understand and enforce server rules
+- Must not abuse moderation permissions
+- Must resolve conflicts professionally
 
-### Wymagania dla Promotora
+### Promoter Requirements
 
-- Musi być aktywny na forach gamingowych, serwerach Discord lub mediach społecznościowych
-- Musi zapraszać potencjalnych graczy na serwer Discord
-- Nie może spamować ani używać agresywnych taktyk marketingowych
-- Musi raportować cotygodniowe działania promocyjne
+- Must be active on gaming forums, Discord servers, or social media
+- Must invite potential players to the Discord server
+- Must not spam or use aggressive marketing tactics
+- Must report weekly promotional activities
 
-## Korzyści dla Członków Zespołu
+## Benefits for Team Members
 
-Wszyscy członkowie zespołu otrzymają następujące korzyści:
+All team members receive the following benefits:
 
-Pełny Dostęp Po Uruchomieniu Serwera:
+### Full Access After Server Launch
 
-Po uruchomieniu publicznego serwera, wszyscy członkowie zespołu otrzymują stały pełny dostęp do wszystkich funkcji VIP i treści premium na serwerze bez kosztów.
+Once the public server is launched, all team members receive permanent full access to all VIP features and premium content on the server at no cost.
 
-Podział Przychodów:
+### Revenue Sharing
 
-- Programiści: udział w przychodach z darowizn i sprzedaży VIP
-- Hoster: udział w przychodach z darowizn i sprzedaży VIP (oprócz dostępu do serwera)
-- Menadżer Hostera: udział w przychodach z darowizn i sprzedaży VIP
-- Testerzy: udział w przychodach z darowizn
-- Moderatorzy Discord: udział w przychodach z darowizn
-- Promotorzy: udział w przychodach z darowizn na podstawie śledzenia poleceń
+- Programmers: Share of donation and VIP sales revenue
+- Hoster: Share of donation and VIP sales revenue (on top of server access)
+- Repository Managers: Share of donation and VIP sales revenue
+- Testers: Share of donation revenue
+- Discord Moderators: Share of donation revenue
+- Promoters: Share of donation revenue based on referral tracking
 
-Procentowe udziały w dystrybucji przychodów zostaną udokumentowane i udostępnione wszystkim członkom zespołu przed uruchomieniem.
+Revenue distribution percentages will be documented and shared with all team members before launch.
 
-Uznanie i Kredyt:
+### Recognition and Credit
 
-- Wszyscy członkowie zespołu wymienieni w CONTRIBUTORS.md
-- Programiści wymienieni w nagłówkach kodu
-- Testerzy uznani w ogłoszeniu uruchomienia
-- Imiona zawarte w motd serwera
+- All team members listed in CONTRIBUTORS.md
+- Programmers credited in code headers
+- Testers acknowledged in launch announcement
+- Names included in server MOTD
 
-Doświadczenie:
+### Experience
 
-- Praca nad kompletnym projektem modyfikacji gry
-- Nauka programowania AMXX 1.9
-- Dołączenie do profesjonalnego środowiska zespołowego
-- Referencje do portfolio na przyszłe możliwości
+- Work on a complete game modification project
+- Learn AMXX 1.9 programming
+- Join a professional team environment
+- Portfolio reference for future opportunities
 
-## Jak Aplikować
+## Server Access Levels After Launch
 
-Dołącz do naszego serwera Discord: https://discord.gg/ZaGdCPGWzd
+| Role | Access Level |
+|------|-------------|
+| El (Project Lead) | Owner |
+| Programmer | BOSS |
+| Hoster | BOSS |
+| Repository Manager | BOSS |
+| Tester | VIP plus Junior Admin |
+| Discord Moderator | Veteran |
+| Promoter | VIP |
 
-Umieść post w kanale rekrutacyjnym z następującymi informacjami:
+## How to Apply
 
-1. Twoja nazwa użytkownika na Discordzie
-2. Stanowisko na które aplikujesz
-3. Twoje doświadczenie (związane ze stanowiskiem)
-4. Ile godzin tygodniowo możesz poświęcić
-5. Dlaczego chcesz dołączyć do tego projektu
+Join our Discord server: https://discord.gg/ZaGdCPGWzd
 
-Dla aplikujących programistów: Zostaniesz poproszony o dostarczenie przykładu kodu lub wykonanie małego testu technicznego.
+Post in the recruitment channel with the following information:
 
-## Zasada Dostępu do Kodu
+1. Your Discord username
+2. Position you are applying for
+3. Your experience (relevant to the position)
+4. How many hours per week you can commit
+5. Why you want to join this project
 
-Tylko El (lider projektu) i zatwierdzeni programiści mają dostęp do przeglądania i edytowania kodu źródłowego.
+For programmer applicants: You will be asked to provide a code sample or complete a small technical test.
 
-Żaden inny członek zespołu ani strona zewnętrzna nie ma dostępu do kodu.
+## How to Request Features or Report Issues
 
-Programistom surowo zabrania się udostępniania jakiegokolwiek kodu komukolwiek poza zespołem programistów.
+Simply join the Discord server and create a ticket. The team will review your request.
 
-Ta zasada chroni integralność i własność projektu.
+## Code Access Policy
 
-## Struktura Repozytorium
+Only El (project lead) and approved programmers have access to view and edit the source code.
 
+No other team member or external party has access to the code.
+
+Programmers are strictly forbidden from sharing any code with anyone outside the programmer team.
+
+This policy protects the integrity and ownership of the project.
+
+## Repository Structure
 COD-MW4/
 ├── README.md
 ├── LICENSE
 ├── CONTRIBUTING.md
 ├── CODE_OF_CONDUCT.md
 ├── docs/
-│   ├── specifications/
-│   └── english/
+│ ├── specifications/
+│ └── english/
 ├── include/
-│   └── cod.inc
+│ └── cod.inc
 ├── .github/
 └── CONTRIBUTORS.md
 
-## Zastrzeżenie
+text
 
-COD:MW4 jest remake'iem od podstaw inspirowanym koncepcjami rozgrywki COD Mod Legacy stworzonego przez O'Zone.
+## Disclaimer
 
-Żaden kod nie został skopiowany z oryginalnego moda. Wszystkie implementacje są oryginalne i napisane od podstaw.
+COD:MW4 is a ground-up remake inspired by the gameplay concepts of COD Mod Legacy (created by O'Zone).
 
-Ten projekt nie jest powiązany ani popierany przez O'Zone.
+No code was copied from the original mod. All implementations are original and written from scratch.
 
-Uznanie i szacunek dla O'Zone za stworzenie oryginalnego COD Moda, który zainspirował ten projekt.
+This project is not affiliated with or endorsed by O'Zone.
 
-## Kontakt
+Credit and respect to O'Zone for creating the original COD Mod that inspired this project.
 
-Lider Projektu: El
-Serwer Discord: https://discord.gg/ZaGdCPGWzd
-Repozytorium GitHub: https://github.com/Nuel/COD-MW4
+## Contact
+
+| Role | Contact |
+|------|---------|
+| Project Lead | from_indonesia |
+| Discord Server | https://discord.gg/ZaGdCPGWzd |
+| GitHub Repository | https://github.com/amxxscripter412-hub/COD-MW4 |
