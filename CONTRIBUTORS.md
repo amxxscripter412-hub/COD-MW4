@@ -12,10 +12,6 @@
 
 *List will be filled when position is filled*
 
-## Repository Managers
-
-*List will be filled as team members join*
-
 ## Testers
 
 *List will be filled as team members join*
