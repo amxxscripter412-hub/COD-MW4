@@ -1,5 +1,7 @@
 # COD:MW4 - Modern Warfare 4 RPG Mod for Counter-Strike 1.6
 
+![COD:MW4 Banner](banner.png)
+
 COD:MW4 is a ground-up remake of the classic COD Mod RPG for Counter-Strike 1.6, built from scratch for AMX Mod X 1.9.
 
 ## Project Status
