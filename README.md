@@ -108,7 +108,6 @@ Once the public server is launched, all team members receive permanent full acce
 
 - Programmers: Share of donation and VIP sales revenue
 - Hoster: Share of donation and VIP sales revenue (on top of server access)
-- Repository Managers: Share of donation and VIP sales revenue
 - Testers: Share of donation revenue
 - Discord Moderators: Share of donation revenue
 - Promoters: Share of donation revenue based on referral tracking
