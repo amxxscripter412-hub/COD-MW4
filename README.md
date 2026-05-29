@@ -48,7 +48,6 @@ We are building a team to complete this project.
 |----------|----------|----------|
 | Programmer | 5 | Critical |
 | Hoster | 1 | Critical |
-| Repository Manager | 3 | High |
 | Tester | 20 | High |
 | Discord Moderator | 3 | Medium |
 | Promoter | 5 | Low |
@@ -73,14 +72,6 @@ No programmer may share any code with anyone outside the programmer team. Only E
 - Must grant El and programmers full FTP or file access to add, remove, or modify files
 - Must not modify any game configuration without approval
 - Must keep server free from other mods that may cause conflicts
-
-### Repository Manager Requirements
-
-- Responsible for maintaining GitHub repository structure
-- Must review and merge pull requests
-- Must keep documentation organized and up to date
-- Must coordinate with programmers for version control
-- Must ensure no unauthorized code is merged
 
 ### Tester Requirements
 
@@ -145,7 +136,6 @@ Revenue distribution percentages will be documented and shared with all team mem
 | El (Project Lead) | Owner |
 | Programmer | BOSS |
 | Hoster | BOSS |
-| Repository Manager | BOSS |
 | Tester | VIP plus Junior Admin |
 | Discord Moderator | Veteran |
 | Promoter | VIP |
