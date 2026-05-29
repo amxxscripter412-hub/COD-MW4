@@ -4,147 +4,167 @@ COD:MW4 adalah remake dari awal (ground-up remake) dari COD Mod RPG klasik untuk
 
 ## Status Proyek
 
-Tahap 1: Perencanaan dan Dokumentasi - SELESAI
-Tahap 2: Pengembangan Inti - SEDANG BERJALAN
-Tahap 3: Pengujian - BELUM DIMULAI
-Tahap 4: Peluncuran - BELUM DIMULAI
+| Tahap | Status |
+|-------|--------|
+| Tahap 1: Perencanaan & Dokumentasi | SELESAI |
+| Tahap 2: Pengembangan Inti | SEDANG BERJALAN |
+| Tahap 3: Pengujian | BELUM DIMULAI |
+| Tahap 4: Peluncuran Publik | BELUM DIMULAI |
 
 ## Fitur Gameplay
 
-- Sistem level: 1 sampai 250 plus Mastery 1 sampai 250
+- Sistem level: 1 hingga 250 ditambah Mastery 1 hingga 250
 - Lima atribut: Intelligence, Strength, Stamina, Condition, Fortune
-- Empat class: Sapper (Gratis), Assassin (VIP), Ghost (Kredit), Chronos (Kustom)
+- Empat kelas: Sapper (Gratis), Assassin (VIP), Ghost (Kredit), Chronos (Kustom)
 - Empat perk: Silent Boots, Quick Reload, Immortality, Set Stunter
-- Shop dengan sembilan item termasuk Kulawangsa Shield
-- Sistem streak: Harian, Mingguan, Kill, Ronde, Quest
-- Gap protection dengan lima tumpukan untuk PvP yang adil
-- Sistem kosmetik: sembilan efek kill dan lima pisau kustom (permanen)
-- 100 kevlar dan helmet setiap spawn
-- Unlimited ammo BP
+- Toko dengan 9 item termasuk Kulawangsa Shield
+- Sistem streak: Harian, Mingguan, Kill, Ronde, Misi
+- Gap protection dengan 5 tumpukan untuk PvP yang adil
+- Sistem kosmetik: 9 efek kill dan 5 pisau kustom (permanen)
+- 100 kevlar dan helm setiap spawn
+- Amunisi BP tidak terbatas
 - Tekan M untuk menu utama
-- Scrolling HUD
+- HUD berjalan (scrolling HUD)
 - 40 efek suara
 
 ## Spesifikasi Teknis
 
-Platform: AMX Mod X 1.9.0
-Database: SQLite (hanya synchronous blocking)
-Target hardware: Pentium 4, 1GB RAM, Intel GMA 950
-Gaya koding: indentasi 4 spasi, kurung kurawal di baris baru untuk fungsi
+| Aspek | Spesifikasi |
+|-------|-------------|
+| Platform | AMX Mod X 1.9.0 |
+| Database | SQLite (sinkronus blocking saja) |
+| Hardware Target | Pentium 4, 1GB RAM, Intel GMA 950 |
+| Gaya Kode | Indentasi 4 spasi, kurung kurawal di baris baru untuk fungsi |
 
 ## Rekrutmen Tim
 
 Kami sedang membangun tim untuk menyelesaikan proyek ini.
 
-### Posisi yang Dibuka
+### Posisi yang Tersedia
 
 | Posisi | Jumlah | Prioritas |
 |--------|--------|-----------|
 | Programmer | 5 | Kritis |
 | Hoster | 1 | Kritis |
-| Manajer Hoster | 1 | Tinggi |
+| Manajer Repository | 3 | Tinggi |
 | Tester | 20 | Tinggi |
 | Moderator Discord | 3 | Sedang |
 | Promotor | 5 | Rendah |
 
-### Syarat Programmer
+### Persyaratan Programmer
 
-- Harus mahir dalam bahasa PAWN untuk AMX Mod X
-- Harus memahami modul fakemeta, hamsandwich, SQLite
+- Harus fasih dalam bahasa PAWN untuk AMX Mod X
+- Harus memahami modul fakemeta, hamsandwich, dan SQLite
 - Harus bisa berbahasa Inggris untuk komunikasi tim
-- Harus memiliki pengalaman terbukti (berikan contoh kode atau karya sebelumnya)
+- Harus memiliki pengalaman terbukti (kirim contoh kode atau pekerjaan sebelumnya)
 - Harus menandatangani perjanjian kerahasiaan
 
-ATURAN PENTING UNTUK PROGRAMMER:
+**ATURAN KRITIS UNTUK PROGRAMMER:**
 
-Tidak ada programmer yang diizinkan membagikan kode apapun kepada siapapun di luar tim programmer. Hanya El (pemimpin proyek) dan semua programmer yang memiliki akses untuk melihat dan mengedit kode. Membagikan kode kepada pihak eksternal akan mengakibatkan pengeluaran langsung dari tim dan tindakan hukum jika diperlukan.
+Tidak ada programmer yang boleh membagikan kode apapun kepada siapapun di luar tim programmer. Hanya El (pemimpin proyek) dan semua programmer yang memiliki akses untuk melihat dan mengedit kode. Membagikan kode kepada pihak eksternal manapun mengakibatkan pengeluaran segera dari tim dan tindakan hukum jika diperlukan.
 
-### Syarat Hoster
+### Persyaratan Hoster
 
 - Harus menyediakan server Counter-Strike 1.6 khusus (dedicated)
-- Server harus online 24/7 dengan minimal 95 persen uptime
+- Server harus berjalan 24/7 dengan uptime minimal 95%
 - Spesifikasi server: minimal 2GB RAM, koneksi internet stabil
-- Harus mengizinkan El dan programmer akses FTP atau file penuh untuk menambah, menghapus, atau mengubah file
-- Tidak boleh mengubah konfigurasi game apapun tanpa persetujuan
-- Harus menjaga server bebas dari mod lain yang dapat mengganggu
+- Harus memberikan El dan programmer akses FTP atau file penuh untuk menambah, menghapus, atau memodifikasi file
+- Tidak boleh memodifikasi konfigurasi game apapun tanpa persetujuan
+- Harus menjaga server bebas dari mod lain yang dapat menyebabkan konflik
 
-### Syarat Manajer Hoster
+### Persyaratan Manajer Repository
 
-- Bertanggung jawab untuk mengunggah addons, plugin, dan aset ke server
-- Harus berkoordinasi dengan hoster untuk akses
-- Harus mengikuti instruksi deployment dari programmer
-- Harus mendokumentasikan semua perubahan yang dilakukan pada file server
-- Harus tersedia untuk deployment darurat
+- Bertanggung jawab untuk memelihara struktur repository GitHub
+- Harus meninjau dan menggabungkan pull request
+- Harus menjaga dokumentasi tetap terorganisir dan terbaru
+- Harus berkoordinasi dengan programmer untuk kontrol versi
+- Harus memastikan tidak ada kode tidak sah yang digabungkan
 
-### Syarat Tester
+### Persyaratan Tester
 
-- Harus memiliki atau memiliki akses terpercaya ke Counter-Strike 1.6
-- Harus bisa bermain minimal 5 jam per minggu di server test
-- Harus mengikuti format laporan bug (template disediakan di Discord)
+- Harus memiliki atau memiliki akses andal ke Counter-Strike 1.6
+- Harus dapat bermain setidaknya 5 jam per minggu di server tes
+- Harus mengikuti format pelaporan bug (template tersedia di Discord)
 - Tidak boleh mengeksploitasi bug untuk keuntungan pribadi
-- Harus melaporkan bug dengan jujur tanpa menyembunyikan informasi
+- Harus melaporkan bug secara jujur tanpa menyembunyikan informasi
 
-### Syarat Moderator Discord
+### Persyaratan Moderator Discord
 
-- Harus bisa berbahasa Inggris dengan lancar
-- Harus aktif di Discord minimal 10 jam per minggu
+- Harus fasih berbahasa Inggris
+- Harus aktif di Discord setidaknya 10 jam per minggu
 - Harus memahami dan menegakkan aturan server
-- Tidak boleh menyalahgunakan kekuasaan moderasi
-- Harus menangani konflik secara profesional
+- Tidak boleh menyalahgunakan izin moderasi
+- Harus menyelesaikan konflik secara profesional
 
-### Syarat Promotor
+### Persyaratan Promotor
 
 - Harus aktif di forum gaming, server Discord, atau media sosial
 - Harus mengundang pemain potensial ke server Discord
 - Tidak boleh spam atau menggunakan taktik pemasaran agresif
-- Harus melaporkan kegiatan promosi setiap minggu
+- Harus melaporkan kegiatan promosi mingguan
 
-## Benefit untuk Anggota Tim
+## Manfaat untuk Anggota Tim
 
-Semua anggota tim akan menerima benefit berikut:
+Semua anggota tim menerima manfaat berikut:
 
-Akses Penuh Setelah Server Diluncurkan:
+### Akses Penuh Setelah Peluncuran Server
 
 Setelah server publik diluncurkan, semua anggota tim menerima akses penuh permanen ke semua fitur VIP dan konten premium di server tanpa biaya.
 
-Pembagian Pendapatan:
+### Pembagian Pendapatan
 
-- Programmer: bagian dari pendapatan donasi dan penjualan VIP
-- Hoster: bagian dari pendapatan donasi dan penjualan VIP (selain akses server)
-- Manajer Hoster: bagian dari pendapatan donasi dan penjualan VIP
-- Tester: bagian dari pendapatan donasi
-- Moderator Discord: bagian dari pendapatan donasi
-- Promotor: bagian dari pendapatan donasi berdasarkan pelacakan rujukan
+- Programmer: Bagian dari pendapatan donasi dan penjualan VIP
+- Hoster: Bagian dari pendapatan donasi dan penjualan VIP (di samping akses server)
+- Manajer Repository: Bagian dari pendapatan donasi dan penjualan VIP
+- Tester: Bagian dari pendapatan donasi
+- Moderator Discord: Bagian dari pendapatan donasi
+- Promotor: Bagian dari pendapatan donasi berdasarkan pelacakan rujukan
 
 Persentase distribusi pendapatan akan didokumentasikan dan dibagikan kepada semua anggota tim sebelum peluncuran.
 
-Kredit dan Pengakuan:
+### Pengakuan dan Kredit
 
-- Semua anggota tim tercantum di CONTRIBUTORS.md
-- Programmer tercantum di header kode
-- Tester mendapat kredit di pengumuman peluncuran
-- Nama termasuk dalam motd server
+- Semua anggota tim dicantumkan di CONTRIBUTORS.md
+- Programmer dikreditkan di header kode
+- Tester diakui dalam pengumuman peluncuran
+- Nama termasuk dalam MOTD server
 
-Pengalaman:
+### Pengalaman
 
 - Bekerja pada proyek modifikasi game lengkap
-- Belajar pengembangan AMXX 1.9
+- Belajar pemrograman AMXX 1.9
 - Bergabung dengan lingkungan tim profesional
 - Referensi portofolio untuk kesempatan masa depan
 
-## Cara Mendaftar
+## Tingkat Akses Server Setelah Peluncuran
+
+| Peran | Tingkat Akses |
+|-------|---------------|
+| El (Pemimpin Proyek) | Owner |
+| Programmer | BOSS |
+| Hoster | BOSS |
+| Manajer Repository | BOSS |
+| Tester | VIP plus Junior Admin |
+| Moderator Discord | Veteran |
+| Promotor | VIP |
+
+## Cara Melamar
 
 Bergabunglah dengan server Discord kami: https://discord.gg/ZaGdCPGWzd
 
-Posting di channel rekrutmen dengan informasi berikut:
+Posting di saluran rekrutmen dengan informasi berikut:
 
-1. Username Discord Anda
+1. Nama pengguna Discord Anda
 2. Posisi yang Anda lamar
 3. Pengalaman Anda (relevan dengan posisi)
-4. Berapa jam per minggu yang dapat Anda kontribusikan
+4. Berapa jam per minggu yang dapat Anda luangkan
 5. Mengapa Anda ingin bergabung dengan proyek ini
 
-Untuk pelamar programmer: Anda akan diminta memberikan contoh kode atau menyelesaikan tes teknis kecil.
+Untuk pelamar programmer: Anda akan diminta untuk memberikan contoh kode atau menyelesaikan tes teknis kecil.
+
+## Cara Meminta Fitur atau Melaporkan Masalah
+
+Cukup bergabung dengan server Discord dan buat tiket. Tim akan meninjau permintaan Anda.
 
 ## Kebijakan Akses Kode
 
@@ -152,28 +172,29 @@ Hanya El (pemimpin proyek) dan programmer yang disetujui yang memiliki akses unt
 
 Tidak ada anggota tim lain atau pihak eksternal yang memiliki akses ke kode.
 
-Programmer dilarang keras membagikan kode apapun dengan siapapun di luar tim programmer.
+Programmer dilarang keras membagikan kode apapun kepada siapapun di luar tim programmer.
 
 Kebijakan ini melindungi integritas dan kepemilikan proyek.
 
 ## Struktur Repository
-
 COD-MW4/
 ├── README.md
 ├── LICENSE
 ├── CONTRIBUTING.md
 ├── CODE_OF_CONDUCT.md
 ├── docs/
-│   ├── specifications/
-│   └── english/
+│ ├── specifications/
+│ └── english/
 ├── include/
-│   └── cod.inc
+│ └── cod.inc
 ├── .github/
 └── CONTRIBUTORS.md
 
+text
+
 ## Disclaimer
 
-COD:MW4 adalah remake dari awal yang terinspirasi oleh konsep gameplay dari COD Mod Legacy yang dibuat oleh O'Zone.
+COD:MW4 adalah remake dari awal yang terinspirasi oleh konsep gameplay dari COD Mod Legacy (dibuat oleh O'Zone).
 
 Tidak ada kode yang disalin dari mod asli. Semua implementasi adalah asli dan ditulis dari awal.
 
@@ -183,6 +204,8 @@ Kredit dan hormat kepada O'Zone untuk menciptakan COD Mod asli yang menginspiras
 
 ## Kontak
 
-Pemimpin Proyek: El
-Server Discord: https://discord.gg/ZaGdCPGWzd
-Repository GitHub: https://github.com/amxxscripter412-hub/COD-MW4
+| Peran | Kontak |
+|-------|--------|
+| Pemimpin Proyek | from_indonesia |
+| Server Discord | https://discord.gg/ZaGdCPGWzd |
+| Repository GitHub | https://github.com/amxxscripter412-hub/COD-MW4 |
