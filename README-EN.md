@@ -4,10 +4,12 @@ COD:MW4 is a ground-up remake of the classic COD Mod RPG for Counter-Strike 1.6,
 
 ## Project Status
 
-Phase 1: Planning and Documentation - COMPLETE
-Phase 2: Core Development - IN PROGRESS
-Phase 3: Testing - NOT STARTED
-Phase 4: Launch - NOT STARTED
+| Phase | Status |
+|-------|--------|
+| Phase 1: Planning & Documentation | COMPLETE |
+| Phase 2: Core Development | IN PROGRESS |
+| Phase 3: Testing | NOT STARTED |
+| Phase 4: Public Launch | NOT STARTED |
 
 ## Gameplay Features
 
@@ -15,11 +17,11 @@ Phase 4: Launch - NOT STARTED
 - Five attributes: Intelligence, Strength, Stamina, Condition, Fortune
 - Four classes: Sapper (Free), Assassin (VIP), Ghost (Credit), Chronos (Custom)
 - Four perks: Silent Boots, Quick Reload, Immortality, Set Stunter
-- Shop with nine items including Kulawangsa Shield
+- Shop with 9 items including Kulawangsa Shield
 - Streak system: Daily, Weekly, Kill, Round, Quest
-- Gap protection with five stacks for fair PvP
-- Cosmetic system: nine kill effects and five custom knives (permanent)
-- 100 kevlar and helmet on every spawn
+- Gap protection with 5 stacks for fair PvP
+- Cosmetic system: 9 kill effects and 5 custom knives (permanent)
+- 100 kevlar and helmet every spawn
 - Unlimited BP ammo
 - Press M for main menu
 - Scrolling HUD
@@ -27,10 +29,12 @@ Phase 4: Launch - NOT STARTED
 
 ## Technical Specifications
 
-Platform: AMX Mod X 1.9.0
-Database: SQLite (synchronous blocking only)
-Target hardware: Pentium 4, 1GB RAM, Intel GMA 950
-Coding style: 4-space indentation, braces on new line for functions
+| Aspect | Specification |
+|--------|---------------|
+| Platform | AMX Mod X 1.9.0 |
+| Database | SQLite (sync blocking only) |
+| Target Hardware | Pentium 4, 1GB RAM, Intel GMA 950 |
+| Coding Style | 4-space indentation, braces on new line for functions |
 
 ## Team Recruitment
 
@@ -42,95 +46,107 @@ We are building a team to complete this project.
 |----------|----------|----------|
 | Programmer | 5 | Critical |
 | Hoster | 1 | Critical |
-| Hoster Manager | 1 | High |
+| Repository Manager | 3 | High |
 | Tester | 20 | High |
 | Discord Moderator | 3 | Medium |
 | Promoter | 5 | Low |
 
 ### Programmer Requirements
 
-- Must be proficient in PAWN language for AMX Mod X
-- Must understand fakemeta, hamsandwich, SQLite modules
+- Must be fluent in PAWN language for AMX Mod X
+- Must understand fakemeta, hamsandwich, and SQLite modules
 - Must speak English for team communication
-- Must have proven experience (provide sample code or previous work)
-- Must sign confidentiality agreement
+- Must have proven experience (submit sample code or previous work)
+- Must sign a confidentiality agreement
 
-CRITICAL RULE FOR PROGRAMMERS:
+**CRITICAL RULE FOR PROGRAMMERS:**
 
-No programmer is allowed to share any code with anyone outside the programmer team. Only El (project lead) and all programmers have access to view and edit the code. Code sharing to any external party will result in immediate removal from the team and legal action if necessary.
+No programmer may share any code with anyone outside the programmer team. Only El (project lead) and all programmers have access to view and edit code. Sharing code with any external party results in immediate removal from the team and legal action if necessary.
 
 ### Hoster Requirements
 
 - Must provide a dedicated Counter-Strike 1.6 server
-- Server must be online 24/7 with minimum 95 percent uptime
+- Server must run 24/7 with minimum 95% uptime
 - Server specifications: minimum 2GB RAM, stable internet connection
-- Must allow El and programmers full FTP or file access to add, remove, or modify files
+- Must grant El and programmers full FTP or file access to add, remove, or modify files
 - Must not modify any game configuration without approval
-- Must keep the server free from other mods that may conflict
+- Must keep server free from other mods that may cause conflicts
 
-### Hoster Manager Requirements
+### Repository Manager Requirements
 
-- Responsible for uploading addons, plugins, and assets to the server
-- Must coordinate with hoster for access
-- Must follow deployment instructions from programmers
-- Must document all changes made to server files
-- Must be available for emergency deployments
+- Responsible for maintaining GitHub repository structure
+- Must review and merge pull requests
+- Must keep documentation organized and up to date
+- Must coordinate with programmers for version control
+- Must ensure no unauthorized code is merged
 
 ### Tester Requirements
 
 - Must own or have reliable access to Counter-Strike 1.6
 - Must be able to play at least 5 hours per week on the test server
-- Must follow bug reporting format (template provided in Discord)
-- Must not exploit bugs for personal advantage
-- Must report bugs honestly without hiding information
+- Must follow bug reporting format (template available on Discord)
+- Must not exploit bugs for personal gain
+- Must report bugs honestly without withholding information
 
 ### Discord Moderator Requirements
 
-- Must speak English fluently
+- Must be fluent in English
 - Must be active on Discord at least 10 hours per week
 - Must understand and enforce server rules
-- Must not abuse moderation powers
-- Must handle conflicts professionally
+- Must not abuse moderation permissions
+- Must resolve conflicts professionally
 
 ### Promoter Requirements
 
 - Must be active on gaming forums, Discord servers, or social media
 - Must invite potential players to the Discord server
 - Must not spam or use aggressive marketing tactics
-- Must report weekly on promotion activities
+- Must report weekly promotional activities
 
 ## Benefits for Team Members
 
-All team members will receive the following benefits:
+All team members receive the following benefits:
 
-Full Access Upon Server Launch:
+### Full Access After Server Launch
 
 Once the public server is launched, all team members receive permanent full access to all VIP features and premium content on the server at no cost.
 
-Revenue Sharing:
+### Revenue Sharing
 
-- Programmers: share of donations and VIP sales revenue
-- Hoster: share of donations and VIP sales revenue (in addition to server access)
-- Hoster Manager: share of donations and VIP sales revenue
-- Testers: share of donations revenue
-- Discord Moderators: share of donations revenue
-- Promoters: share of donations revenue based on referral tracking
+- Programmers: Share of donation and VIP sales revenue
+- Hoster: Share of donation and VIP sales revenue (on top of server access)
+- Repository Managers: Share of donation and VIP sales revenue
+- Testers: Share of donation revenue
+- Discord Moderators: Share of donation revenue
+- Promoters: Share of donation revenue based on referral tracking
 
 Revenue distribution percentages will be documented and shared with all team members before launch.
 
-Credit and Recognition:
+### Recognition and Credit
 
 - All team members listed in CONTRIBUTORS.md
-- Programmers listed in code headers
-- Testers credited in launch announcement
-- Names included in server motd
+- Programmers credited in code headers
+- Testers acknowledged in launch announcement
+- Names included in server MOTD
 
-Experience:
+### Experience
 
 - Work on a complete game modification project
-- Learn AMXX 1.9 development
+- Learn AMXX 1.9 programming
 - Join a professional team environment
 - Portfolio reference for future opportunities
+
+## Server Access Levels After Launch
+
+| Role | Access Level |
+|------|-------------|
+| El (Project Lead) | Owner |
+| Programmer | BOSS |
+| Hoster | BOSS |
+| Repository Manager | BOSS |
+| Tester | VIP plus Junior Admin |
+| Discord Moderator | Veteran |
+| Promoter | VIP |
 
 ## How to Apply
 
@@ -141,16 +157,20 @@ Post in the recruitment channel with the following information:
 1. Your Discord username
 2. Position you are applying for
 3. Your experience (relevant to the position)
-4. How many hours per week you can contribute
+4. How many hours per week you can commit
 5. Why you want to join this project
 
 For programmer applicants: You will be asked to provide a code sample or complete a small technical test.
+
+## How to Request Features or Report Issues
+
+Simply join the Discord server and create a ticket. The team will review your request.
 
 ## Code Access Policy
 
 Only El (project lead) and approved programmers have access to view and edit the source code.
 
-No other team members or external parties have access to the code.
+No other team member or external party has access to the code.
 
 Programmers are strictly forbidden from sharing any code with anyone outside the programmer team.
 
@@ -164,16 +184,18 @@ COD-MW4/
 ├── CONTRIBUTING.md
 ├── CODE_OF_CONDUCT.md
 ├── docs/
-│   ├── specifications/
-│   └── english/
+│ ├── specifications/
+│ └── english/
 ├── include/
-│   └── cod.inc
+│ └── cod.inc
 ├── .github/
 └── CONTRIBUTORS.md
 
+text
+
 ## Disclaimer
 
-COD:MW4 is a ground-up remake inspired by the gameplay concepts of COD Mod Legacy created by O'Zone.
+COD:MW4 is a ground-up remake inspired by the gameplay concepts of COD Mod Legacy (created by O'Zone).
 
 No code was copied from the original mod. All implementations are original and written from scratch.
 
@@ -183,6 +205,8 @@ Credit and respect to O'Zone for creating the original COD Mod that inspired thi
 
 ## Contact
 
-Project Lead: El
-Discord Server: https://discord.gg/ZaGdCPGWzd
-GitHub Repository: https://github.com/amxxscripter412-hub/COD-MW4
+| Role | Contact |
+|------|---------|
+| Project Lead | from_indonesia |
+| Discord Server | https://discord.gg/ZaGdCPGWzd |
+| GitHub Repository | https://github.com/amxxscripter412-hub/COD-MW4 |
