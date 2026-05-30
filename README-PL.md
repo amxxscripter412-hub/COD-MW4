@@ -108,9 +108,6 @@ Po uruchomieniu publicznego serwera, wszyscy członkowie zespołu otrzymują sta
 
 - Programiści: udział w przychodach z darowizn i sprzedaży VIP
 - Hoster: udział w przychodach z darowizn i sprzedaży VIP (oprócz dostępu do serwera)
-- Testerzy: udział w przychodach z darowizn
-- Moderatorzy Discord: udział w przychodach z darowizn
-- Promotorzy: udział w przychodach z darowizn na podstawie śledzenia poleceń
 
 Procentowe udziały w dystrybucji przychodów zostaną udokumentowane i udostępnione wszystkim członkom zespołu przed uruchomieniem.
 
