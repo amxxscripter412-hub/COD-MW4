@@ -47,7 +47,7 @@ We are building a team to complete this project.
 | Position | Quantity | Priority |
 |----------|----------|----------|
 | Programmer | 5 | Critical |
-| Hoster | 1 | Critical (Filled) |
+| Hoster | 1 | Critical **(Filled) ✅** |
 | Tester | 20 | High |
 | Discord Moderator | 3 | Medium |
 | Promoter | 5 | Low |
