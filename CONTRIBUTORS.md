@@ -6,7 +6,7 @@
 
 ## Programmers
 
-*List will be filled as team members join*
+- El (GitHub: amxxscripter412-hub)
 
 ## Hoster
 
