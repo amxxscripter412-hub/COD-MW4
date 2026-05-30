@@ -47,7 +47,7 @@ Budujemy zespół aby ukończyć ten projekt.
 | Pozycja | Ilość | Priorytet |
 |---------|------|-----------|
 | Programista | 5 | Krytyczny |
-| Hoster | 1 | Krytyczny |
+| Hoster | 1 | Krytyczny **(OBSADZONY)** ✅ |
 | Tester | 20 | Wysoki |
 | Moderator Discord | 3 | Średni |
 | Promotor | 5 | Niski |
