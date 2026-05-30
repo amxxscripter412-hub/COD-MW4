@@ -108,10 +108,6 @@ Setelah server publik diluncurkan, semua anggota tim menerima akses penuh perman
 
 - Programmer: Bagian dari pendapatan donasi dan penjualan VIP
 - Hoster: Bagian dari pendapatan donasi dan penjualan VIP (di samping akses server)
-- Manajer Repository: Bagian dari pendapatan donasi dan penjualan VIP
-- Tester: Bagian dari pendapatan donasi
-- Moderator Discord: Bagian dari pendapatan donasi
-- Promotor: Bagian dari pendapatan donasi berdasarkan pelacakan rujukan
 
 Persentase distribusi pendapatan akan didokumentasikan dan dibagikan kepada semua anggota tim sebelum peluncuran.
 
