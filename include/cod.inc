@@ -33,7 +33,7 @@
  */
 #define PLUGIN         "COD:MW4"
 #define VERSION        "3.0.0"
-#define AUTHOR         "Nuel"
+#define AUTHOR         "El"
 
 /**
  * String length limits for various data types.
