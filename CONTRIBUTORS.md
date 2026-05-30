@@ -10,7 +10,7 @@
 
 ## Hoster
 
-*List will be filled when position is filled*
+- Babyboy
 
 ## Testers
 
