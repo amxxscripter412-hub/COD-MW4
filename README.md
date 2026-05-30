@@ -136,7 +136,7 @@ Revenue distribution percentages will be documented and shared with all team mem
 | Programmer | BOSS |
 | Hoster | BOSS |
 | Tester | VIP plus Junior Admin |
-| Discord Moderator | Veteran |
+| Discord Moderator | VIP plus Senior |
 | Promoter | VIP |
 
 ## How to Apply
