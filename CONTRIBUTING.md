@@ -17,7 +17,7 @@ COD:MW4 is a closed source project. The source code is not publicly available. O
 | Position | Quantity | Status |
 |----------|----------|--------|
 | Programmer | 5 | Open |
-| Hoster | 1 | Open |
+| Hoster | 1 | Filled |
 | Tester | 20 | Open |
 | Discord Moderator | 3 | Open |
 | Promoter | 5 | Open |
