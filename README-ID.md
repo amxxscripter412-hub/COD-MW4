@@ -47,7 +47,7 @@ Kami sedang membangun tim untuk menyelesaikan proyek ini.
 | Posisi | Jumlah | Prioritas |
 |--------|--------|-----------|
 | Programmer | 5 | Kritis |
-| Hoster | 1 | Kritis |
+| Hoster | 1 | Kritis **(Penuh) ✅** |
 | Tester | 20 | Tinggi |
 | Moderator Discord | 3 | Sedang |
 | Promotor | 5 | Rendah |
