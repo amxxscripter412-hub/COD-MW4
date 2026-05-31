@@ -10,6 +10,8 @@
 //  for the COD:MW4 modification. It is designed to be included in all class,
 //  perk, shop, and cosmetic plugins.
 //
+// Note: This .inc just an outdated version, only coder got the latest version
+//
 //  DEPENDENCIES:
 //    - AMX Mod X 1.9.0 or higher
 //    - Required modules: cstrike, fakemeta, hamsandwich, sqlx
