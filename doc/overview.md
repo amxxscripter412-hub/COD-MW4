@@ -3,7 +3,7 @@
 ## Game Design Documentation (Public Version)
 
 **Version:** 3.0.0  
-**Last Updated:** 2026-05-31  
+**Last Updated:** 2026-06-04  
 **Project:** COD:MW4 - Modern Warfare 4 RPG Mod for Counter-Strike 1.6
 
 > **DISCLAIMER:** This document provides an overview of game features and design philosophy. It does not contain implementation details, source code, or technical internals. Full documentation is available to approved developers only.
