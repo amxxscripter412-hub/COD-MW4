@@ -164,21 +164,6 @@ Programmers are strictly forbidden from sharing any code with anyone outside the
 
 This policy protects the integrity and ownership of the project.
 
-## Repository Structure
-COD-MW4/
-├── README.md
-├── LICENSE
-├── CONTRIBUTING.md
-├── CODE_OF_CONDUCT.md
-├── docs/
-│ ├── specifications/
-│ └── english/
-├── include/
-│ └── cod.inc
-├── .github/
-└── CONTRIBUTORS.md
-
-text
 
 ## Disclaimer
 
